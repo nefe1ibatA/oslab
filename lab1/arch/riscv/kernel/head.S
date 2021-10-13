@@ -3,11 +3,11 @@
     .section .text.entry
     .globl _start
 _start:
-    la sp, boot_stack_top
-    jal x0, start_kernel
     # ------------------
     # - your code here -
     # ------------------
+    la sp, boot_stack_top
+    jal x0, start_kernel
 
     .section .bss.stack
     .globl boot_stack
