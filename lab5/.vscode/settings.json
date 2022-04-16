@@ -1,0 +1,11 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "syscall.h": "c",
+        "__string": "c",
+        "atomic": "c",
+        "cstring": "c",
+        "memory": "c",
+        "utility": "c"
+    }
+}

@@ -6,8 +6,8 @@ _start:
     # ------------------
     # - your code here -
     # ------------------
-    la sp, boot_stack_top
-    jal x0, start_kernel
+    la sp, boot_stack_top   # set stack pointer
+    jal x0, start_kernel    # jump to start_kernel
 
     .section .bss.stack
     .globl boot_stack
